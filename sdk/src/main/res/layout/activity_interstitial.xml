@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/web_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adserver.interstitial.InterstitialActivity">
+
+    <LinearLayout
+        android:id="@+id/webViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical" />
+
+    <FrameLayout
+        android:id="@+id/btnBackground"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|end"
+        android:background="@drawable/rounded" />
+
+</FrameLayout>

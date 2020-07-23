@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Adserver.Online SDK Example</string>
+    <string name="show_interstitial">Show Interstitial</string>
+    <string name="reload_banner">Reload banners</string>
+</resources>
